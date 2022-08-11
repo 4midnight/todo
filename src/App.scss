@@ -1,0 +1,27 @@
+
+@import "./Scss/vars";
+@import "./components/ToDo/todo.scss";
+
+body{
+  font-size: 16px;
+}
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 $indent;
+  margin: 0 auto;
+}
+
+.error{
+  color: rgb(237, 0, 0);
+  font-weight: 600;
+}
